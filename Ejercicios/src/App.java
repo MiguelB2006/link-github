@@ -18,6 +18,6 @@ public class App {
         } else {
             System.out.println("La palabra no es palindromo");
         }
-
+        System.out.println("Hola");
     }
 }
