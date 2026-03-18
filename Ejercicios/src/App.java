@@ -19,12 +19,5 @@ public class App {
             System.out.println("La palabra no es palindromo");
         }
         System.out.println("Hola");
-
-        int[] numeros = { 5, 12, 3, 20 };
-        for (int i : numeros) {
-            if (i > 10) {
-                System.out.println(i);
-            }
-        }
     }
 }
