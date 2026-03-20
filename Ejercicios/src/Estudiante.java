@@ -10,9 +10,7 @@ public class Estudiante {
     }
 
     public void agregarNotas(List<Float> nota) {
-        for (Float n : nota) {
-            notas.add(n);
-        }
+        notas.stream().forEach(notas::add);
     }
 
     public void calcularPromedio() {
