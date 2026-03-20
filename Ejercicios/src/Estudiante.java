@@ -22,6 +22,11 @@ public class Estudiante {
             return;
         }
 
+        if (notas.stream().anyMatch(notas -> !(notas > 0 && notas <= 5.0))) {
+            System.out.println("Notas invalidas, tienen que ser mayor a 0 y menor a 5.0");
+            return;
+        }
+
         double promedio = notas.stream().mapToDouble(n -> n).average().orElse(0);
 
         if (promedio > 3.0) {
