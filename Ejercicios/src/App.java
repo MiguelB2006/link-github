@@ -31,18 +31,21 @@ public class App {
          * }
          * }
          */
+        /*
+         * Estudiante estudiante1 = new Estudiante("Miguel Angel Bustos Malagon");
+         * Estudiante estudiante2 = new Estudiante("Jose Daniel Mogollon Rodriguez");
+         * 
+         * List<Float> notas = new ArrayList<>(Arrays.asList(1.0f, 4.2f, 2.4f));
+         * List<Float> notas2 = new ArrayList<>(Arrays.asList(5.0f, 3.2f, 4.4f));
+         * 
+         * estudiante1.agregarNotas(notas);
+         * estudiante1.calcularPromedio();
+         * 
+         * estudiante2.agregarNotas(notas2);
+         * estudiante1.calcularPromedio();
+         */
 
-        Estudiante estudiante1 = new Estudiante("Miguel Angel Bustos Malagon");
-        Estudiante estudiante2 = new Estudiante("Jose Daniel Mogollon Rodriguez");
-
-        List<Float> notas = new ArrayList<>(Arrays.asList(1.0f, 4.2f, 2.4f));
-        List<Float> notas2 = new ArrayList<>(Arrays.asList(5.0f, 3.2f, 4.4f));
-
-        estudiante1.agregarNotas(notas);
-        estudiante1.calcularPromedio();
-
-        estudiante2.agregarNotas(notas2);
-        estudiante1.calcularPromedio();
-
+        Lasagna lasagna = new Lasagna();
+        System.out.println(lasagna.remainingMinutesInOven(30));
     }
 }
