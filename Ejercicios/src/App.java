@@ -45,5 +45,8 @@ public class App {
          * estudiante1.calcularPromedio();
          */
 
+        Lasagna lasagna = new Lasagna();
+        System.out.println(lasagna.remainingMinutesInOven(30));
+
     }
 }
